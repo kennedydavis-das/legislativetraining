@@ -1,0 +1,1286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns10111001101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns10111001101" font="Open Sans" controllayout="npnxnanbsnfns10111001101" colorscheme="npnxnanbnsnfns10111001101" string_table="npnxnanbnsnfns10111001101" />
+    <layout name="pxabnsnfns10111001101" font="Open Sans" controllayout="pxabnsnfns10111001101" colorscheme="npnxnanbnsnfns10111001101" string_table="npnxnanbnsnfns10111001101" />
+    <layout name="npxnabnsnfns10111001101" font="Open Sans" controllayout="npxnabnsnfns10111001101" colorscheme="npnxnanbnsnfns10111001101" string_table="npnxnanbnsnfns10111001101" />
+    <layout name="npnxnanbnsnfns10111001101" font="Open Sans" controllayout="npnxnanbnsnfns10111001101" colorscheme="npnxnanbnsnfns10111001101" string_table="npnxnanbnsnfns10111001101" />
+    <layout name="pxabnsnfns10111001100" font="Open Sans" controllayout="pxabnsnfns10111001100" colorscheme="npnxnanbnsnfns10111001101" string_table="npnxnanbnsnfns10111001101" />
+    <layout name="pnxnanbnsnfns10111001101" font="Open Sans" controllayout="pnxnanbnsnfns10111001101" colorscheme="npnxnanbnsnfns10111001101" string_table="npnxnanbnsnfns10111001101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Legislative" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="true" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="restricted" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+            </options>
+          </option>
+          <option name="search" value="false" />
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111001100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="pnxnanbnsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npnxnanbnsnfns10111001101">
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x909090" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDBDBDB" alpha="100" stop="0" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x33CC00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xDEDEDE" alpha="100" stop="0" />
+                <color rgb="0xE8E8E8" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF6F6F6" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC4C4C4" alpha="100" stop="0" />
+                <color rgb="0xB2B2B2" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCBCBCB" alpha="100" stop="0" />
+                <color rgb="0xBABABA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7A7A7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+                <color rgb="0xEEEEEE" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC6C6C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9F9F9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0E0E0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA5A5A5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD4D4D4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC8C8C8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBCBCBC" alpha="100" stop="0" />
+                <color rgb="0xBCBCBC" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npnxnanbnsnfns10111001101">
+      <string id="acc_active">active</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to Menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip Navigation. Hit enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+        <file bold="false" italic="true" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Calibri">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="true" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Segoe UI">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Forte">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6njkoZ8ousj" displaytext="Preventing Sexual Harassment for Legislative Employees" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6njkoZ8ousj.6DatpHMofrj" displaytext="LSA Harassment Education and Reporting Presentation" expand="false" type="slide" />
+            <slidelink slideid="_player.6njkoZ8ousj.5nOEIEQ5OvE" displaytext="Course Navigation" expand="false" type="slide" />
+            <slidelink slideid="_player.6njkoZ8ousj.68SRV8KaMzP" displaytext="Acknowledgement" expand="false" type="slide" />
+            <slidelink slideid="_player.6njkoZ8ousj.5gpcR5rKZHq" displaytext="Outline" expand="false" type="slide" />
+            <slidelink slideid="_player.6njkoZ8ousj.6BP9mdRyvsV" displaytext="Sexual Harassment Code" expand="false" type="slide" />
+            <slidelink slideid="_player.6njkoZ8ousj.5a79EjHk2P7" displaytext="Sexual Harassment Definition" expand="false" type="slide" />
+            <slidelink slideid="_player.6njkoZ8ousj.6kk5pC1MoUg" displaytext="Harassment: Defining" expand="false" type="slide" />
+            <slidelink slideid="_player.6njkoZ8ousj.6pPmUNZzoqP" displaytext="Harrassment: Examples" expand="false" type="slide" />
+            <slidelink slideid="_player.6njkoZ8ousj.6RwY255TQKu" displaytext="When It's Not Harassment" expand="false" type="slide" />
+            <slidelink slideid="_player.6njkoZ8ousj.68rdp2chfGg" displaytext="Characteristics" expand="false" type="slide" />
+            <slidelink slideid="_player.6njkoZ8ousj.64npLxYBagY" displaytext="How Harassment Affects the Workplace" expand="false" type="slide" />
+            <slidelink slideid="_player.6njkoZ8ousj.5rkt7y56TMo" displaytext="Sexual Harassment Statistics" expand="false" type="slide" />
+            <slidelink slideid="_player.6njkoZ8ousj.5YpNBWOOzsN" displaytext="Forms of Sexual Harassment" expand="false" type="slide" />
+            <slidelink slideid="_player.6njkoZ8ousj.6Grtyv1gYMZ" displaytext="Postive Workplace" expand="false" type="slide" />
+            <slidelink slideid="_player.6njkoZ8ousj.6KFeC3SyHRP" displaytext="Response" expand="false" type="slide" />
+            <slidelink slideid="_player.6njkoZ8ousj.6fotKblosfD" displaytext="Reporting Process" expand="false" type="slide" />
+            <slidelink slideid="_player.6njkoZ8ousj.5yWYqJDyV6C" displaytext="Applicability" expand="false" type="slide" />
+            <slidelink slideid="_player.6njkoZ8ousj.5WTWU6Ya62Z" displaytext="Victim Reporting Process" expand="false" type="slide" />
+            <slidelink slideid="_player.6njkoZ8ousj.64YpqFJsjDK" displaytext="LSA Employee Is the Alleged Harasser" expand="false" type="slide" />
+            <slidelink slideid="_player.6njkoZ8ousj.61simzxs7mj" displaytext="LSA Director or Other LSA Staff Is the Alleged Harsser" expand="false" type="slide" />
+            <slidelink slideid="_player.6njkoZ8ousj.6C9csV30Ie4" displaytext="Member, Lobbyist of Senate" expand="false" type="slide" />
+            <slidelink slideid="_player.6njkoZ8ousj.5oTSAAWEuZs" displaytext="Member, Lobbyist of House" expand="false" type="slide" />
+            <slidelink slideid="_player.6njkoZ8ousj.6OPIk2VdvDU" displaytext="Retaliation Complaint" expand="false" type="slide" />
+            <slidelink slideid="_player.6njkoZ8ousj.5aRQzGqQut6" displaytext="Retaliation Process" expand="false" type="slide" />
+            <slidelink slideid="_player.6njkoZ8ousj.6LnTZxP6OO0" displaytext="Agree" expand="false" type="slide" />
+            <slidelink slideid="_player.6njkoZ8ousj.6NjAoKV0E39" displaytext="Course Summary" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="6njkoZ8ousj.6DatpHMofrj" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;LSA or Legislative Services Agency Harassment Education and Reporting presentation.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6njkoZ8ousj.5nOEIEQ5OvE" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='13.5pt' style="font-size:13.5pt;" color='#444444'&gt;A few things to remember as you go through this course.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='13.5pt' style="font-size:13.5pt;" color='#444444'&gt;The Course Menu is on the left - you can find where you are in the course by looking at the Menu. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='13.5pt' style="font-size:13.5pt;" color='#444444'&gt;If you would like to follow along with the audio, click on the audio transcript in the Course Notes.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='13.5pt' style="font-size:13.5pt;" color='#444444'&gt;Your course resources are on the right and include useful links and documents that are mentioned throughout the course. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='13.5pt' style="font-size:13.5pt;" color='#444444'&gt;The information icon is a clickable button that will appear whenever there is additional information or links that may be beneficial.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='13.5pt' style="font-size:13.5pt;" color='#444444'&gt;If you need to adjust your volume, click the volume button.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#000000'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='13.5pt' style="font-size:13.5pt;" color='#444444'&gt;You can use the navigation buttons to move through the course.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]'&gt;&lt;font face='Arial' size='13.5pt' style="font-size:13.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#444444'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='13.5pt' style="font-size:13.5pt;" color='#444444'&gt;The course content displays here. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6njkoZ8ousj.68SRV8KaMzP" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;&lt;b&gt;AUDIO (sync to text): &lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 15px'&gt;&lt;textformat leading='3' tabstops='[0, 15, 48, 96, 144]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 15px; margin-left: -15px;" color='#002060'&gt;•&lt;/font&gt;&lt;font face='Segoe UI' size='16.5pt' style="font-size:16.5pt;" color='#002060'&gt;By participating in this training, as a participant  I agree to complete the training in its entirety.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 15px'&gt;&lt;textformat leading='3' tabstops='[0, 15, 48, 96, 144]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 15px; margin-left: -15px;" color='#002060'&gt;•&lt;/font&gt;&lt;font face='Segoe UI' size='16.5pt' style="font-size:16.5pt;" color='#002060'&gt;As a participant, I further acknowledge by my participation should I not understand any part of the training,  I am expected to seek clarification from my supervisor or contact PDS&lt;/font&gt;&lt;font face='Forte' size='16.5pt' style="font-size:16.5pt;" color='#002060'&gt;.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 15px'&gt;&lt;textformat leading='3' tabstops='[0, 15, 48, 96, 144]'&gt;&lt;font face='Arial' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 15px; margin-left: -15px;" color='#002060'&gt;•&lt;/font&gt;&lt;font face='Segoe UI' size='16.5pt' style="font-size:16.5pt;" color='#002060'&gt;It will be presumed participants understand the training content if no clarification is sought.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6njkoZ8ousj.5gpcR5rKZHq" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 36px;margin-top: 7.65px'&gt;&lt;textformat leading='0' tabstops='[0, 36, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;•Legislative Council Policies and Procedures About Harassment&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 36px;margin-top: 7.65px'&gt;&lt;textformat leading='0' tabstops='[0, 36, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;•Harassment Education&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 36px;margin-top: 7.65px'&gt;&lt;textformat leading='0' tabstops='[0, 36, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;•Harassment Reporting&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6njkoZ8ousj.6BP9mdRyvsV" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The Policies and Procedures Outline Both Sexual Harassment and Harassment&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Sexual Harassment&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;•Sexual harassment is prohibited under Code section 19B.12.  As defined in Code section 19B12, sexual harassment means persistent, repetitive, or highly egregious conduct directed at a specific individual or group of individuals that a reasonable person would interpret as intentional harassment of a sexual nature, taking into consideration the full context in which the conduct occurs, which conduct threatens to impair the ability of a person to perform the duties of employment.  Conduct of a sexual nature that interferes with or affects employment decisions regarding an employee, or creates an intimidating, hostile, or offensive work environment for an employee, shall constitute unlawful behavior.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6njkoZ8ousj.5a79EjHk2P7" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 36px'&gt;&lt;textformat leading='0' tabstops='[0, 36, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Sexual harassment shall include but is not limited to the following:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 36px'&gt;&lt;textformat leading='0' tabstops='[0, 36, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 77px'&gt;&lt;textformat leading='0' tabstops='[0, 77, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;•Unsolicited sexual advances by a person toward another person who has clearly communicated the other person’s desire not to be the subject of those advances.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 77px'&gt;&lt;textformat leading='0' tabstops='[0, 77, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 77px'&gt;&lt;textformat leading='0' tabstops='[0, 77, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;•Sexual advances or propositions made by a person having superior authority toward another person within the workplace.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 77px'&gt;&lt;textformat leading='0' tabstops='[0, 77, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 77px'&gt;&lt;textformat leading='0' tabstops='[0, 77, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;•Instances of offensive sexual remarks or speech or graphic sexual displays directed at a person in the workplace who has clearly communicated objection to that conduct, and where the person is not free to avoid that conduct due to the requirements of employment.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 77px'&gt;&lt;textformat leading='0' tabstops='[0, 77, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 77px'&gt;&lt;textformat leading='0' tabstops='[0, 77, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;•Dress requirements that bear no relation to the person’s employment responsibilities.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6njkoZ8ousj.6kk5pC1MoUg" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 36px;margin-top: 3.6px'&gt;&lt;textformat leading='0' tabstops='[0, 36, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Harassment&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 3.6px'&gt;&lt;textformat leading='0' tabstops='[0, 1, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;In addition to sexual harassment, harassment may include persistent, repetitive, or highly egregious conduct consisting of unwelcome verbal (in-person or by phone, text, email, social media, or any other means) or physical conduct, whether or not based wholly or in part on any characteristic protected by law, directed at a specific individual or group of individuals, that is not justified by a supervisor-subordinate work relationship and that a reasonable person would interpret as designed or perceived to do any of the following:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6njkoZ8ousj.6pPmUNZzoqP" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 77px;margin-top: 3.1px'&gt;&lt;textformat leading='0' tabstops='[0, 77, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;-Impair the ability of another person in the workplace to perform the duties of employment.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 77px;margin-top: 3.1px'&gt;&lt;textformat leading='0' tabstops='[0, 77, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;-Threaten, intimidate, or coerce another person in the workplace to act in a manner that is not required by the person’s duties of employment.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 77px;margin-top: 3.1px'&gt;&lt;textformat leading='0' tabstops='[0, 77, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;-Create an intimidating, hostile, or offensive work environment.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6njkoZ8ousj.6RwY255TQKu" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Segoe UI' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;When It’s not harassment&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Segoe UI' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Courteous, mutually respectful, and non-coercive conduct between employees that is appropriate in the workplace and that a reasonable person would view as acceptable is not considered to be harassment.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6njkoZ8ousj.68rdp2chfGg" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='2' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;According to a study done by the US Merit System Protection Board about Sexual Harassment in the Federal Workplace, victims of sexual harassment have some common characteristics.   Which statements do you think are true??  Make your choices by clicking on them and then pushing the submit button to see how you did.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='2' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;There are four correct responses, more likely to be unmarried, work with individuals of the opposite sex, have attended college, be under the age of 35.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6njkoZ8ousj.64npLxYBagY" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;&lt;b&gt;AUDIO: Think of a word or phrase that describes a healthy work environment.  Type it on the whiteboard and press Enter.  You will need to click the continue button when it appears.&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;&lt;i&gt;Learner inputs a word &lt;/i&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;&lt;b&gt;Here are some words that other people who have taken this class have suggested.&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;&lt;i&gt;Words and phrases fade in&lt;/i&gt;&lt;/font&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt; (affirming, collaborative, engaging, good communication, helpful, nurturing, opportunity for growth, pleasant, positive, professional, respectful, rewarding, supportive, values diversity)&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;Now imagine the absence of these qualities. &lt;/font&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;&lt;i&gt;(words and phrases fade ou&lt;/i&gt;&lt;/font&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;t).&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='2' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='2' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;Employees and customers who are harassed do not feel their environment has these qualities so sexual harassment can turn a healthy work environment into a poor one.  For individuals that experience it, sexual harassment takes its toll in the form of mental and emotional stress and even loss of income, if the victims leave their jobs or take leave without pay as a result of the experience.  Workplace sexual harassment is not limited to the confines of an office environment.  Any misconduct during a work-related activity such as a company function, corporate event, team building exercise, or out of town business trip can constitute sexual harassment.  Click on the continue button.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6njkoZ8ousj.5rkt7y56TMo" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;&lt;b&gt;AUDIO: Sexual harassment is still all too prevalent in the workplace. A recent survey found that 20% of women in the work place have been harassed by a supervisor and 25% by a co-worker, while 6% of men have been harassed by a supervisor and 14% by a co-worker.&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='2' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;As you can see, harassment by a co-worker is more common. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='2' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;These statistics do not include sexual harassment that goes unreported because of lack of knowledge. According to a report conducted by a EEOC select task force on Harassment in the workplace, roughly three out of four individuals who experienced harassment never even talked to a supervisor, manager, or union representative about the harassing conduct. Employees who experience harassment fail to report the harassing behavior or to file a complaint because they fear disbelief of their claim, inaction on their claim, blame, or social or professional retaliation. Many victims are not aware of the workplace policies regarding sexual harassment that is why training about identifying sexual harassment and strategies to effectively deal with sexual harassment is so important. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6njkoZ8ousj.5YpNBWOOzsN" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='2' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;As mentioned there are two principle forms of sexual harassment&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='2' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Quid pro quo&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='2' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Hostile work environment.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='2' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Quid Pro Quo literally means “this for that”.  This is usually the most blatant kind of sexual harassment.  This occurs when a boss uses a job reward (such as a raise or promotion) or punishment (such as a firing) to force an employee into a sexual relationship. (&lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;&lt;b&gt;audio) &lt;/b&gt;&lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;&lt;i&gt;This type of harassment, which typically involves a harasser who has authority over the victim, is clearly an abuse of power.&lt;/i&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='2' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Hostile environment harassment is much more subtle then quid pro quo.  Employees who claim a hostile environment are arguing that the workplace is so sexually charged that it affects their job performance. &lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;&lt;b&gt;(Audio: &lt;/b&gt;&lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Stating there is a hostile work environment &lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;&lt;i&gt;does not require the employee to experience actual economic loss.  Keep in mind it does not necessarily mean that it is a supervisor or person in authority who creates the environment.  Coworkers are just as likely as superiors to be the source of hostile environment harassment, and non-employees, may be guilty of creating the offensive environment.  It’s important to note, however, that it is the employer who may be held responsible, even though other employees or non-employees may be the source of the harassment.&lt;/i&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6njkoZ8ousj.6Grtyv1gYMZ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='2' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;It is everyone’s responsibility to create a positive work environment.  Employees should behave professionally at all times, following the code of conduct set forth by the State of Iowa and the agency.  At the same time, managers should set a positive example. Here are some guidelines for everyone to follow:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 48px'&gt;&lt;textformat leading='2' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;&amp;#183;	Do not operate on assumptions- get to know co-workers as individuals&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 48px'&gt;&lt;textformat leading='2' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;&amp;#183;	Do not tolerate inappropriate jokes or comments&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 48px'&gt;&lt;textformat leading='2' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;&amp;#183;	Avoid unwelcome physical contact with co-workers or customers&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 48px'&gt;&lt;textformat leading='2' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;&amp;#183;	Do not make suggestive comments.  The workplace isn’t the place for sexual behavior&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 48px'&gt;&lt;textformat leading='2' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;&amp;#183;	Never use jokes, words or phrases, and gestures with sexual, religious, racial, gender or disability-laden connotation&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 9px'&gt;&lt;textformat leading='2' tabstops='[0, 9, 48, 96, 144]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 9px; margin-left: -9px;" color='#444444'&gt;•&lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;  Practice courtesy and respect&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6njkoZ8ousj.6KFeC3SyHRP" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="14">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='2' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;What do I do if I feel I have been the victim of or a witness to sexual harassment?  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='2' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;According to the US Merit System Protection Board study, the single most common response of employees who are targets of sexually harassing behaviors is to ignore the behavior or do nothing,  In fact, going along with the behaviors seems to be about the least effective thing a victim can do.  Should discrimination or harassment take place, an employee must take steps to address the problem immediately. According to the same study, the most effective approaches are informal, assertive actions such as informing the harasser that the conduct is unwelcome and must stop or reporting the behavior to someone in a position to help.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6njkoZ8ousj.6fotKblosfD" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="15">&lt;html&gt;&lt;p align='center' style='text-align:center;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Harassment - Reporting Process &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6njkoZ8ousj.5yWYqJDyV6C" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="16">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Applicability&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;This policy applies to all central legislative staff agency employees as the alleged harasser or as victims of fellow central legislative staff agency employees.  For purposes of this policy, the word “employee” also applies to central legislative staff agency volunteers, interns, and consultants.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Members, employees, interns, and consultants of the Senate and House of Representatives and lobbyists are subject to the jurisdiction of the Senate and House, respectively, regarding harassment complaints.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;&amp;#160;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6njkoZ8ousj.5WTWU6Ya62Z" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="17">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;Victim Reporting Process&lt;br&gt;&lt;/font&gt;&lt;font face='Segoe UI' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;If you are the victim of, or you have suspicion of, harassment, there are different reporting requirements based upon the alleged harasser.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 47px;margin-top: 3.168px'&gt;&lt;textformat leading='0' tabstops='[0, 47, 48, 96, 144]'&gt;&lt;font face='Segoe UI' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 30px; margin-left: -30px;" color='#000000'&gt;1.&lt;/font&gt;&lt;font face='Segoe UI' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;LSA employee is the alleged harasser.LSA Director or other central legislative staff is the alleged harasser.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 47px;margin-top: 3.168px'&gt;&lt;textformat leading='0' tabstops='[0, 47, 48, 96, 144]'&gt;&lt;font face='Segoe UI' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 30px; margin-left: -30px;" color='#000000'&gt;2.&lt;/font&gt;&lt;font face='Segoe UI' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;Member, employee, or a lobbyist of the Senate is the alleged harasser.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 47px;margin-top: 3.168px'&gt;&lt;textformat leading='0' tabstops='[0, 47, 48, 96, 144]'&gt;&lt;font face='Segoe UI' size='16.5pt' style="font-size:16.5pt;display: inline-block; text-align:left; min-width: 30px; margin-left: -30px;" color='#000000'&gt;3.&lt;/font&gt;&lt;font face='Segoe UI' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;Member, employee, or a lobbyist of the House is the alleged harasser.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 47px;margin-top: 3.168px'&gt;&lt;textformat leading='0' tabstops='[0, 47, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 17px;margin-top: 3.168px'&gt;&lt;textformat leading='0' tabstops='[0, 17, 48, 96, 144]'&gt;&lt;font face='Segoe UI' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;Any complaint may be filed with the Iowa Civil Rights Commission or the U.S. Equal Employment Opportunity Commission.  Such a complaint is subject to investigation and resolution under time frames established pursuant to federal and state law, which are sufficiently longer than the time frames established by the harassment policy established by the Legislative Council.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6njkoZ8ousj.64YpqFJsjDK" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="18">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;LSA Employee is the Alleged Harasser&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;Reporting Process&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;•Complete the “Harassment Complaint Form” found in the Legislative Council Policies and Procedures.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;•File the complaint with the Director of the LSA.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;•The Director shall begin investigation of a complaint within 48 hours of receipt of the complaint, and shall complete the investigation within 30 calendar days.  The Director should generally consult with the alleged harasser’s supervisor in the investigation of the complaint. &lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;•If the Director determines that harassment has occurred, the Director shall take appropriate disciplinary action ranging from a written warning or reprimand, to suspension with or without pay, to termination of employment.  A Director who neglects to investigate promptly a sexual harassment complaint is also subject to the scope of disciplinary action described in this paragraph, up to and including termination of employment.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6njkoZ8ousj.61simzxs7mj" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="19">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;LSA Director or Other Central Legislative Staff is the Alleged Harasser&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;Reporting Process&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;	•Complete the “Harassment Complaint Form” found in the Legislative Council Policies and Procedures.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;	•If the complaint involves the Director of a central legislative staff agency or an employee of a different central legislative staff agency, the complaint may be filed directly with the Service Committee of the Legislative Council.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;	•The Service Committee shall begin investigation of a complaint within 48 hours of receipt of the complaint, and shall complete the investigation within 30 calendar days.  If the Service Committee determines that harassment has occurred, the Service Committee shall take appropriate action.  If the Service Committee neglects to investigate promptly a harassment complaint under this policy, the complaint may be refiled with the Legislative Council, which is subject to the same guidelines as the Service Committee.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6njkoZ8ousj.6C9csV30Ie4" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="20">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 36px;margin-top: 4.8px'&gt;&lt;textformat leading='0' tabstops='[0, 36, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;Member, Employee, or a Lobbyist of the Senate is the Alleged Harasser&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 36px;margin-top: 4.8px'&gt;&lt;textformat leading='0' tabstops='[0, 36, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;Reporting Process&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 36px;margin-top: 4.8px'&gt;&lt;textformat leading='0' tabstops='[0, 36, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;•Complete the “Harassment Complaint Form” found in the Legislative Council Policies and Procedures.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 36px;margin-top: 4.8px'&gt;&lt;textformat leading='0' tabstops='[0, 36, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;•If the complaint involves a member or an employee of the Senate or a lobbyist, the complaint should be filed with the Senate in accordance with the Senate harassment complaint or grievance procedures. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 36px;margin-top: 4.8px'&gt;&lt;textformat leading='0' tabstops='[0, 36, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;•Senate procedures provide that if the complaint involves a Senate employee the complaint shall be filed with the Secretary of the Senate.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 36px;margin-top: 4.8px'&gt;&lt;textformat leading='0' tabstops='[0, 36, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 77px;margin-top: 4.3px'&gt;&lt;textformat leading='0' tabstops='[0, 77, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;-All complaints shall be handled promptly and discreetly by the Senate. The complaining party and the party cited for unwelcome conduct will be notified as to whether action is warranted.  If action is not warranted, both parties will be notified of that decision.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 77px;margin-top: 4.3px'&gt;&lt;textformat leading='0' tabstops='[0, 77, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 77px;margin-top: 4.3px'&gt;&lt;textformat leading='0' tabstops='[0, 77, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;-Any person not satisfied with action taken regarding the person’s complaint may continue the process by filing the written complaint with the Rules and Administration Committee.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 77px;margin-top: 4.3px'&gt;&lt;textformat leading='0' tabstops='[0, 77, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 36px;margin-top: 4.8px'&gt;&lt;textformat leading='0' tabstops='[0, 36, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;•Senate procedures provide that if the complaint involves a Senator or Lobbyist, the complaint shall also be filed with the Ethics Committee.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6njkoZ8ousj.5oTSAAWEuZs" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="21">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 36px;margin-top: 3.8px'&gt;&lt;textformat leading='0' tabstops='[0, 36, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;Member, Employee, or a Lobbyist of the House is Alleged Harasser&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 36px;margin-top: 3.8px'&gt;&lt;textformat leading='0' tabstops='[0, 36, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;Reporting process:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 36px;margin-top: 3.8px'&gt;&lt;textformat leading='0' tabstops='[0, 36, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;•Complete the “Harassment Complaint Form” found in the Legislative Council Policies and Procedures.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 36px;margin-top: 3.8px'&gt;&lt;textformat leading='0' tabstops='[0, 36, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;•If the complaint involves a member or an employee of the House of Representatives or a lobbyist, the complaint should be filed with the House in accordance with the harassment complaint or grievance procedures established by the House.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 36px;margin-top: 3.8px'&gt;&lt;textformat leading='0' tabstops='[0, 36, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;•Any employee who believes he or she has been subjected to harassment prohibited by this policy should immediately report that behavior to the employee’s supervisor or to the Chief Clerk.  If an employee becomes aware of harassing conduct engaged in or suffered by a House employee, regardless of whether such harassment directly affects that employee, the employee should immediately report that information to the employee’s supervisor or to the Chief Clerk.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 36px;margin-top: 3.8px'&gt;&lt;textformat leading='0' tabstops='[0, 36, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;•Whenever the Chief Clerk is made aware of a situation that may violate this policy, the Chief Clerk’s Office will conduct a thorough and objective investigation of any harassment claims.  If it is determined that prohibited harassment has occurred, appropriate action will be taken against any person found to have engaged in prohibited harassment.  A determination regarding the alleged harassment will be made and communicated to the person claiming harassment as soon as practical.  The type of discipline administered will be dependent upon the severity of the conduct, as well as any other factors presented in the particular circumstances.  Employees violating this policy are subject to discipline, up to and including termination.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6njkoZ8ousj.6OPIk2VdvDU" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="22">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 36px;margin-top: 6.45px'&gt;&lt;textformat leading='0' tabstops='[0, 36, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;Confidentiality and Retaliation&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 36px;margin-top: 6.45px'&gt;&lt;textformat leading='0' tabstops='[0, 36, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;•Any complaint or investigation of harassment shall be handled confidentially. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 36px;margin-top: 6.45px'&gt;&lt;textformat leading='0' tabstops='[0, 36, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;•There shall be no discrimination or retaliation against an individual who files a complaint or who aids another individual in filing a complaint.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6njkoZ8ousj.5aRQzGqQut6" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="23">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 36px;margin-top: 6.45px'&gt;&lt;textformat leading='0' tabstops='[0, 36, 48, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;•An employee who has reason to believe that he or she has been retaliated against because of participation in an investigation of a discrimination complaint may file a complaint under the Legislative Council’s harassment policy alleging violation of the probabilities of retaliation, intimidation, or reprisal for assisting in the investigation of a harassment complaint or may also file a charge with the: &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 77px;margin-top: 5.75px'&gt;&lt;textformat leading='0' tabstops='[0, 77, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;-Iowa Civil Rights Commission, or &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 77px;margin-top: 5.75px'&gt;&lt;textformat leading='0' tabstops='[0, 77, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;-U.S. Equal Employment Opportunity Commission, whichever is appropriate.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 77px;margin-top: 5.75px'&gt;&lt;textformat leading='0' tabstops='[0, 77, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 77px;margin-top: 5.75px'&gt;&lt;textformat leading='0' tabstops='[0, 77, 96, 144]'&gt;&lt;font face='Calibri' size='16.5pt' style="font-size:16.5pt;" color='#000000'&gt;If you need to report harassment and you are unclear of the appropriate reporting channel,  please consult with your supervisor or the Legislative Human Resources person.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6njkoZ8ousj.6LnTZxP6OO0" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="24">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 16px'&gt;&lt;textformat leading='0' tabstops='[0, 16, 48, 96, 144]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 16px; margin-left: -16px;" color='#444444'&gt;•&lt;/font&gt;&lt;font face='Segoe UI' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;By clicking the “agree” button, I acknowledge I participated in the Preventing Sexual Harassment for Employees training. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 16px'&gt;&lt;textformat leading='0' tabstops='[0, 16, 48, 96, 144]'&gt;&lt;font face='Arial' size='12.5pt' style="font-size:12.5pt;display: inline-block; text-align:left; min-width: 16px; margin-left: -16px;" color='#444444'&gt;•&lt;/font&gt;&lt;font face='Segoe UI' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt; Affirming I have completed the training in its entirety and understand the training content. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6njkoZ8ousj.6NjAoKV0E39" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="25">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Congratulations in the completion of this training. We hope you have found this information useful and understand that harassment and discrimination will not be tolerated. Supervisors and managers must understand their obligation to be proactive in monitoring workplace behavior as they are often the first line of defense to claims of harassment and discrimination.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data />
+</bwFrame>
